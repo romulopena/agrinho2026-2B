@@ -10,6 +10,7 @@
 
 }
 
-.titulo-site{
-    alig
+.cabecalho-menu{
+    display: flex;
+    
 }
