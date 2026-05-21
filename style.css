@@ -1,0 +1,15 @@
+*{ /*Código de Reset da página*/
+    margin: 0; /*margem externa do body*/
+    padding: 0;/*margem interna do body*/
+}
+
+.cabecalho{
+    display: flex; /*transformando o header em caixa flexivel*/
+    justify-content: space-between; /*justificando o elemento no centro*/
+    align-items: center; /*margem externa do body*/
+
+}
+
+.titulo-site{
+    alig
+}
