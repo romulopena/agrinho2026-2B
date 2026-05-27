@@ -2,15 +2,34 @@
     margin: 0; /*margem externa do body*/
     padding: 0;/*margem interna do body*/
 }
-
 .cabecalho{
     display: flex; /*transformando o header em caixa flexivel*/
     justify-content: space-between; /*justificando o elemento no centro*/
     align-items: center; /*margem externa do body*/
-
+    border-bottom:2px solid #d6c9c9;
+    height: 100px; /*altura da area do cabeçalho*/
+    position:sticky;
 }
-
+.cabecalho-titulo{
+    padding-left:30px; /*espaço interno da esquerda do elemento*/
+}
+span{
+    font-weight: bold; /*negrito no texto envolvido pelo span*/
+    color:green;/*cor do texto de span*/
+}
 .cabecalho-menu{
     display: flex;
-    
 }
+.cabecalho-menu-texto{
+    padding: 10px; /*espaço interno do elemento*/
+}
+.cabecalho-botao{
+    background-color: black;/*cor de preenchimento do botao*/
+    height:30px;/*altura do elemento botão*/
+    color: white;/*cor de texto do elemento botão*/
+    margin-right:30px;
+    border-radius:15px;
+    padding:16px;
+    justify-content: center;
+}
+
