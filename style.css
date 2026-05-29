@@ -33,3 +33,21 @@ span{
     justify-content: center;
 }
 
+.conteudo-principal{
+    background-color: aquamarine;
+}
+
+.conteudo-principal-secao-problema{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao-desafio-conteudo{
+    flex:1;
+}
+
+.secao-problema-conteudo{
+    flex:1;
+}
+
