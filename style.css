@@ -2,13 +2,26 @@
     margin: 0; /*margem externa do body*/
     padding: 0;/*margem interna do body*/
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Voces&display=swap');
+
+body{
+    font-family: "Voces", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .cabecalho{
-    display: flex; /*transformando o header em caixa flexivel*/
-    justify-content: space-between; /*justificando o elemento no centro*/
-    align-items: center; /*margem externa do body*/
-    border-bottom:2px solid #d6c9c9;
-    height: 100px; /*altura da area do cabeçalho*/
-    position:sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
 }
 .cabecalho-titulo{
     padding-left:30px; /*espaço interno da esquerda do elemento*/
@@ -24,13 +37,15 @@ span{
     padding: 10px; /*espaço interno do elemento*/
 }
 .cabecalho-botao{
-    background-color: black;/*cor de preenchimento do botao*/
-    height:30px;/*altura do elemento botão*/
-    color: white;/*cor de texto do elemento botão*/
-    margin-right:30px;
-    border-radius:15px;
-    padding:16px;
-    justify-content: center;
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: transform 0.2s;
 }
 
 .conteudo-principal{
@@ -39,16 +54,41 @@ span{
 
 .conteudo-principal-secao-problema{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+    padding: 60px 5%;
+    min-height: 80vh;
+    gap: 30px;
 }
 
-.secao-desafio-conteudo{
-    flex:1;
-    
+.imagem-problema{
+    width: 100%;
+    max-width:550px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px;
 }
 
-.secao-problema-conteudo{
-    flex:1;
+.conteudo-principal-secao-desafio{
+    width: 90%;
+    max-width: 1200,px;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
 }
+
+.secao-problema-imagem{
+    padding:50px;
+    text-align: center;
+}
+
+.imagem-desafio{
+    width: 100%;
+    max-width:550px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px;
+}
+
+
 
